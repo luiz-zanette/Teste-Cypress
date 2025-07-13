@@ -3,6 +3,7 @@ describe('Página de cadastro', () => {
       cy.visit('https://adopet-frontend-iota.vercel.app/');
       cy.get('[data-test="register-button"]').click();
       cy.get('[data-test="submit-button"]').click();
+    });
 
     it('Preencher os campos do formulário incorretamente e exibir mensagens ao usuário', () => {
         cy.contains('É necessário informar um endereço de email').should('be.visible');
