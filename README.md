@@ -1,1 +1,1 @@
-Documento de teste em Cypress para aprendizagem
+Modelos de testes automatizados para aprendizado de Cypress
